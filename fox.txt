@@ -1,0 +1,26 @@
+FX_LM({
+    "response":{
+        "numFound":44649,
+        "docs":[{
+            "content_type":"article",
+            "date":"2013-08-05T19:59:36Z",
+            "description":"<p>The terror threat that led to the closure of nearly two-dozen U.S. embassies and consulates resulted from intercepted communications between the head of Al Qaeda and the leader of its Arabian Peninsula affiliate, a U.S. intelligence source tells Fox News.&#160;</p>",
+            "export_headline":"Intercepted communication between Al Qaeda leaders prompted terror warning, source says",
+            "image_url":[
+                "http://global.fncstatic.com/static/managed/img/fn2/video/080513_studiob_embassies2_640.jpg"
+            ],
+            "native_id":"5bf2b8542ff40410VgnVCM100000d7c1a8c0RCRD",
+            "authors":[],
+            "section":[{
+                "path":"fnc/Home/politics/executive",
+                "title":"Executive Branch",
+                "url":"http://www.foxnews.com/politics/executive-branch/index.html"
+            }],
+            "taxonomy_path":null,
+            "title":"Intercepted communication between Al Qaeda leaders prompted terror warning, source says",
+            "url":[
+                "http://www.foxnews.com/politics/2013/08/05/intercepted-communications-terror/"
+            ]
+        }]
+    }
+})
