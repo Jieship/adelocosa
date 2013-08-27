@@ -40,6 +40,7 @@ class ReutersSpider(BaseSpider):
             return
         else:
             imgXS = imgXSList[0]
+            item['imgHtml'] = imgXS.extract()
             urlList = imgXS.select('@src').extract()
             if len(urlList) > 0:
                 item['imgUrl'] = urlList[0]

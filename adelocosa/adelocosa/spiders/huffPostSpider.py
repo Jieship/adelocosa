@@ -56,6 +56,7 @@ class HuffPostSpider(BaseSpider):
             self.logFile.write("image missing:\t" + response.url + "\n")
             return
         else:
+            item['imgHtml'] = imgXS.extract()
             urlList = imgXS.select('@src').extract()
             if len(urlList) > 0:
                 item['imgUrl'] = urlList[0]

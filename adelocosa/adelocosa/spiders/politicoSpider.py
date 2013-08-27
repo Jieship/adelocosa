@@ -22,7 +22,7 @@ class politicoSpider(BaseSpider):
             colXS = colXSList[0]
         else:
             self.logFile.write("colXS missing:\t" + response.url + "\n")
-            returxpathn
+            return
         
         item['source'] = self.allowed_domains[0]
         item['url'] = response.url
@@ -45,6 +45,7 @@ class politicoSpider(BaseSpider):
             return
         else:
             imgXS = imgXSList[0]
+            item['imgHtml'] = imgXS.extract()
             urlList = imgXS.select('@src').extract()
             if len(urlList) > 0:
                 item['imgUrl'] = urlList[0]

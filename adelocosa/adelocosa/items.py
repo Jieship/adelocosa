@@ -14,6 +14,7 @@ class AdelocosaItem(Item):
     date = Field()
     headline = Field()
     imgUrl = Field()
+    imgHtml = Field()
     imgWidth = Field()
     imgHeight = Field()
     articleLen = Field()
